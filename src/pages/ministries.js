@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import styled, { css } from '@xstyled/styled-components'
 import { breakpoints, th, layout, flexboxes, overflow, padding, backgrounds } from '@xstyled/system'
