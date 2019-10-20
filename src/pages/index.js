@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
 import HPHeader from '../components/HPHeader'
 import HPEvents from '../components/HPEvents'
 import HPSermons from '../components/HPSermons'

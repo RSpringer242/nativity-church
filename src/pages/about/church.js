@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import styled, { css } from '@xstyled/styled-components'
 import { breakpoints, th, layout, flexboxes, overflow, padding, px, py, backgrounds, textAlign } from '@xstyled/system'
 import LayoutAbout from '../../components/LayoutAbout'
-import Layout from '../../components/Layout'
+import Layout from '../../components/layout'
 
 
 

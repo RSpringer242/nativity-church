@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import styled, { css } from '@xstyled/styled-components'
 import LayoutAbout from '../../components/LayoutAbout'
-import Layout from '../../components/Layout'
+import Layout from '../../components/layout'
 import image2 from '../../images/main4.jpg'
 
 

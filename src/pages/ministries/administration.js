@@ -5,7 +5,7 @@ import {
   breakpoints, th, layout, flexboxes, overflow,
   padding, backgrounds
 } from '@xstyled/system'
-import Layout from '../../components/Layout'
+import Layout from '../../components/layout'
 import Header from '../../components/Header'
 import Img from "gatsby-image"
 

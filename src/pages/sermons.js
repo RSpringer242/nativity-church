@@ -1,6 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
 import Header from '../components/Header'
 import Sermons from '../components/Sermons'
 
