@@ -20,10 +20,19 @@ const Wrapper = styled.section(
         max-width: 1020px;
         margin: 0 auto;
 
+      hr {
+      border: 0.5px solid neutral2;
+      margin-top: 5;
+      margin-bottom: 5;
+      width: 85%;
+      }
+
       h1 {
-        font-size: 50px;
-        color: neutral9;
-        margin-top: 5;
+        font-size: 7;
+        letter-spacing: 2px;
+        font-weight: 300;
+        color: primary4;
+        text-align: center;
       }
 
       .content {
@@ -132,6 +141,8 @@ export default ({ data }) => (
 
         </div>
 
+        <hr />
+
         <h1>Christian Formation</h1>
         <div className="content">
           <p>Somewhere between Christ’s gracious invitation to “Come to Me”, and the Great Commission to “Go into all the World,” is a process of <span style={{ fontWeight: 'bold' }}>Christian Formation</span> characterized by three major conversions:</p>
@@ -162,6 +173,7 @@ export default ({ data }) => (
 
         </div>
 
+        <hr />
 
         <h1>Evangelism & Outreach</h1>
         <div className="content">
@@ -238,11 +250,15 @@ export default ({ data }) => (
 
         </div>
 
+        <hr />
+
         <h1>Finance</h1>
         <div className="content">
           <h2>GOALS AND OBJECTIVES</h2>
           <p>Promote responsible tithing through Stewardship.</p>
         </div>
+
+        <hr />
 
         <h1>Pastorial</h1>
         <div className="content">

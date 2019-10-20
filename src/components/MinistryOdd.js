@@ -102,7 +102,7 @@ const MinistryOdd = ({ data }) => (
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis sequi voluptate ipsum magni quaerat. Eligendi debitis veritatis voluptate est architecto dolor earum repellendus dignissimos eos. Commodi magni omnis libero molestiae.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis sequi voluptate ipsum magni quaerat. Eligendi debitis veritatis voluptate est architecto dolor earum repellendus dignissimos eos. Commodi magni omnis libero molestiae.</p>
       </div>
-      <StyledLink to={`ministries/${data.node.slug.current}`}>Learn More</StyledLink>
+      <StyledLink to={`ministries/administration#${data.node.title}`}>Learn More</StyledLink>
     </div>
     <div className="ministryImage">
       <BackGroundImage fluid={data.node.image.asset.fluid} style={{

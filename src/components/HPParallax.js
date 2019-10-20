@@ -29,9 +29,14 @@ const Wrapper = styled.section(
           font-size: 20;
           margin-top: 3;
           color: neutral9;
-          background-color: neutral0;
+          background-color: primary4;
           z-index: 100;
           padding: 2;
+          border-color: primary4;
+
+          .contact {
+            color: neutral0;
+          }
         }
     `,
 
@@ -71,7 +76,7 @@ const HPParallax = ({ data }) => {
 
 
       <h1>Come Visit Us</h1>
-      <button>Contact Us</button>
+      <button><Link to="/contact#target" className="contact">Contact Us</Link></button>
 
     </Wrapper>
   );

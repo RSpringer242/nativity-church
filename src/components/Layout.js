@@ -16,15 +16,15 @@ const Layout = ({ children }) => {
 
 
   return (
-    <ThemeProvider theme={theme}>
-      <>
-        <GlobalStyles />
+    <>
+      <GlobalStyles />
+      <ThemeProvider theme={theme}>
         <NavBar />
         <main>{children}</main>
         <Footer />
-      </>
-    </ThemeProvider>
 
+      </ThemeProvider>
+    </>
   )
 }
 

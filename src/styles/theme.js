@@ -90,11 +90,12 @@ const GlobalStyles = createGlobalStyle`
 
   }
   body {
-    @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap");
+    /* @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap");
+    font-family: 'Raleway', sans-serif; */
     padding: 0;
     margin: 0;
     background-color: ${theme.neutral0};
-    font-family: 'Raleway', sans-serif;
+
     color: ${theme.neutral9};
 
     #root { 

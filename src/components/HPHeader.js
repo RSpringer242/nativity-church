@@ -145,8 +145,8 @@ const HPHeader = ({ data }) => {
       <HeroContent>
         <animated.h1 style={fade}>The Church Of The Nativity</animated.h1>
         <ButtonsWrapper>
-          <a href="#schedule" className="schedule">Weekly Schedule</a>
-          <StyledLink to="/about" >See Our Beliefs</StyledLink>
+          <a href="https://www.facebook.com/TheNativity242/" target="_blank" className="schedule">Follow Us on Facebook</a>
+          <StyledLink to="/about/church" >See Our Beliefs</StyledLink>
         </ButtonsWrapper>
       </HeroContent>
     </Wrapper>

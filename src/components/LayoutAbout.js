@@ -118,7 +118,7 @@ const LayoutAbout = ({ children }) => {
 
   const data = useStaticQuery(graphql`
     query AboutQuery { 
-      sanityPageBanner(title: {eq: "MinistriesPageHeroImage"}) {
+      sanityPageBanner(title: {eq: "AboutPageHeroImage"}) {
          page
           image {
             asset {
